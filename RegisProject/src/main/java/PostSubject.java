@@ -4,7 +4,7 @@ public class PostSubject extends Subject {
     private ArrayList<Subject> preSubject;
     public PostSubject(String subject, String subID, int credit, String description) {
         super(subject, subID, credit, description);
-        preSubject = new ArrayList<>();
+//        preSubject = new ArrayList<>();
     }
 
     public boolean checkPreSubIsAllPass(){

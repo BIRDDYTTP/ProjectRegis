@@ -16,7 +16,7 @@ import java.util.ArrayList;
 public class Controller {
 
     public void initialize(){
-        ArrayList<Subject> subjects = new ArrayList<>();
+//        ArrayList<Subject> subjects = new ArrayList<>();
         
     }
     @FXML Button register;
@@ -24,19 +24,26 @@ public class Controller {
     @FXML Button y2;
     @FXML Button y3;
     @FXML Button y4;
-    @FXML ListView<String> subject;
+    @FXML ListView<Subject> subject;
     @FXML Label selectingSubject, subjectDetail;
 
     @FXML public void handleClickOnRegisterButton (ActionEvent event) throws IOException {
         System.out.println("clickOnregister");
         FXMLLoader loader = new FXMLLoader(getClass().getResource("pagetwo.fxml"));
         Stage stage = (Stage) register.getScene().getWindow();
-        Scene scene = new Scene(loader.load());
+        Scene scene = new Scene((Parent) loader.load());
         stage.setScene(scene);
     }
 
     @FXML public void handleClickOnYearOneBtn (ActionEvent event){
-
+        
     }
 
+    public ListView<Subject> getSubject() {
+        return subject;
+    }
+
+    public void setSubject(ListView<Subject> subject) {
+        this.subject = subject;
+    }
 }

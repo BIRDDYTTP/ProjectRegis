@@ -24,8 +24,8 @@ public class FileJsonReader {
         JsonReader reader = null;
         try {
             reader = new JsonReader(new FileReader(filename));
-            Subject[] data = gson.fromJson(reader, Subject[].class);
-            ArrayList<Subject> subjects = new ArrayList<Subject>(Arrays.asList(data));
+            Subjects data = gson.fromJson(reader, Subjects.class);
+            ArrayList<Subject> subjects = data.getSubjects();
             return subjects;
         } catch (FileNotFoundException e) {
             e.printStackTrace();
