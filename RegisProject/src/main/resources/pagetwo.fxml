@@ -23,7 +23,7 @@
       <AnchorPane layoutX="173.0" layoutY="31.0" prefHeight="440.0" prefWidth="486.0" style="-fx-background-color: white;">
          <children>
             <ListView fx:id="subject" layoutX="-2.0" onMouseClicked="#handleOnClickListview" prefHeight="440.0" prefWidth="170.0" />
-            <Button fx:id="save" alignment="CENTER" layoutX="190.0" layoutY="361.0" mnemonicParsing="false" onAction="#handleClickOnSaveBtn" style="-fx-background-radius: 8; -fx-background-color: #CD5C5C;" text="บันทึก" textFill="WHITE">
+            <Button fx:id="save" alignment="CENTER" layoutX="190.0" layoutY="361.0" mnemonicParsing="false" onAction="#handleClickOnSaveBtn" style="-fx-background-radius: 8; -fx-background-color: #CD5C5C;" text="ลงทะเบียน" textFill="WHITE">
                <font>
                   <Font name="Calibri Bold" size="12.0" />
                </font>
@@ -39,7 +39,7 @@
                   <Font name="Calibri Bold" size="12.0" />
                </font>
             </Label>
-            <Button layoutX="352.0" layoutY="405.0" mnemonicParsing="false" style="-fx-background-color: #3CB371;" text="ยืนยันการลงทะเบียน" textFill="WHITE">
+            <Button layoutX="352.0" layoutY="405.0" mnemonicParsing="false" style="-fx-background-color: #3CB371;" text="ผลการลงทะเบียน" textFill="WHITE">
                <font>
                   <Font name="Calibri Bold" size="12.0" />
                </font>

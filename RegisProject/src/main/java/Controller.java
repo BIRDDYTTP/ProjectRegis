@@ -180,6 +180,9 @@ public class Controller implements Initializable {
         for (String s1 : s.getPresubject()) {
             presub+=s1+"\n";
         }
+        if (presub.equals("")){
+            presub = "ไม่มีวิชาที่ต้องผ่านก่อนลงทะเบียน";
+        }
         selectingSubject.setText(s.getSubject());
         subjectDetail.setText("รหัสวิชา : " + s.getSubID() + "\nหน่วยกิต : " + s.getCredit() +
                 "\nรายละเอียดวิชา : " + s.getDescription() + "\nวิชาที่ต้องผ่านก่อน : " +presub);
