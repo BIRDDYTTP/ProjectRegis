@@ -26,7 +26,7 @@ public class Controller implements Initializable {
     private ArrayList<Subject> yearTwoSubject ;
     private ArrayList<Subject> yearThreeSubject ;
     private ArrayList<Subject> yearFourSubject ;
-
+    private PDFCreator pdfCreator;
     @FXML Button register;
     @FXML Button y1;
     @FXML Button y2;
@@ -37,6 +37,7 @@ public class Controller implements Initializable {
     @FXML Label selectingSubject;
     @FXML TextArea subjectDetail;
     @FXML Label hardRate;
+    @FXML Button resultRegis;
     public Controller(){
         subjects = FileJsonReader.getInstance().readJsonToSubject("subject.json");
         subjectsObservableList = FXCollections.observableArrayList();
@@ -242,6 +243,10 @@ public class Controller implements Initializable {
                 }
             });
         }
+    }
+    @FXML public void handleClickOnResultBtn(ActionEvent event){
+        pdfCreator = new PDFCreator();
+        pdfCreator.createPDF(subjects);
     }
 
     public ListView<Subject> getSubject() {

@@ -39,7 +39,7 @@
                   <Font name="Calibri Bold" size="12.0" />
                </font>
             </Label>
-            <Button layoutX="352.0" layoutY="405.0" mnemonicParsing="false" style="-fx-background-color: #3CB371;" text="ผลการลงทะเบียน" textFill="WHITE">
+            <Button fx:id="resultRegis" layoutX="352.0" layoutY="405.0" mnemonicParsing="false" onAction="#handleClickOnResultBtn" style="-fx-background-color: #3CB371;" text="ผลการลงทะเบียน" textFill="WHITE">
                <font>
                   <Font name="Calibri Bold" size="12.0" />
                </font>
