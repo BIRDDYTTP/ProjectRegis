@@ -5,7 +5,8 @@
         "subID": "01418114",
         "credit": 2,
         "description": "พัฒนาการของคอมพิวเตอร์ การแทนข้อมูลในคอมพิวเตอร์ ระบบจำนวน องค์ประกอบของฮาร์ดแวร์คอมพิวเตอร์ ตัววัดสมรรถนะของคอมพิวเตอร์ ซอฟต์แวร์ระบบ ตัวแปลภาษาและภาษาการโปรแกรม ความซับซ้อนในระบบคอมพิวเตอร์ การจัดองค์การของระบบคอมพิวเตอร์ สถาปัตยกรรมไคลแอนต์-เซิร์ฟเวอร์ เครือข่ายคอมพิวเตอร์ ความมั่นคงของสารสนเทศ การประยุกต์ระบบคอมพิวเตอร์ปัจจุบัน จริยธรรมทางคอมพิวเตอร์",
-        "presubject":[]
+        "presubject":[],
+        "hardRate":"EASY"
         
       },
       {
@@ -13,182 +14,208 @@
         "subID": "01417111",
         "credit": 3,
         "description": "ลิมิตและความต่อเนื่อง อนุพันธ์ของฟังก์ชันและการประยุกต์ ค่าเชิงอนุพันธ์และการประยุกต์ ปริพันธ์และการประยุกต์ปริพันธ์ไม่ตรงแบบ",
-        "presubject":[]
+        "presubject":[],
+        "hardRate":"NORMAL"
       },
       {
         "subject": "Digital computer logic",
         "subID": "01418131",
         "credit": 3,
         "description": "การออกแบบวงจรตรรกะเบื้องต้น การแทนข้อมูลและสารสนเทศ ควบคุมโดยสัญญาณดิจิทัล การลงรหัสการแทนตัวเลข และการคำนวณ สภาปัตยกรรมคอมพิวเตอร์",
-        "presubject":[]
+        "presubject":[],
+        "hardRate":"NORMAL"
       },
       {
         "subject": "Knowledge of the land",
         "subID": "01999111",
         "credit": 2,
         "description": "ประวัติ เอกลักษณ์และอัตลักษณ์ของมหาวิทยาลัยเกษตรศาสตร์ ศาสตร์แห่งแผ่นดินเพื่อความกินดีอยู่ดีของชาติ การเรียนรู้คนต้นแบบ การสำนุกในความเป็นพลเมืองไทยและพลเมืองโลก การเสริมสร้างและพัฒนาทักษะในการเรียนรู้และการทำงานสู่เป้าหมายภายใต้บริบทของความสำนึกดี มุ่งมั่น สร้างสรรค์ สามัคคี",
-        "presubject":[]
+        "presubject":[],
+        "hardRate":"EASY"
       },
       {
         "subject": "Thai Language for Communication",
         "subID": "01999021",
         "credit": 3,
         "description": "ภาษาไทยในการสื่อสาร ความคิดกับการใช้ภาษา ภาษากับสังคม และการพัฒนาทักษะการใช้ภาษาไทยเพื่อการสื่อสาร",
-        "presubject":[]
+        "presubject":[],
+        "hardRate":"NORMAL"
       },
       {
         "subject": "Principles of statistics",
         "subID": "01422111",
         "credit": 3,
         "description": "แนวความคิดเกี่ยวกับวิชาสถิติ ตัววัดตำแหน่งที่ ตัววัดค่ากลาง ตัววัดการกระจาย ตัวแปรสุ่มและการแจกแจงความน่าจะเป็นของตัวแปรสุ่ม การแจกแจงทวินาม การแจกแจงปัวชง การแจกแจงปกติ การแจกแจงตัวอย่าง สถิติ อนุมานสำหรับประชากรเดียวและสองประชากร การวิเคราะห์ข้อมูลความถี่ การวิเคราะห์ความแปรปรวนแบบทางเดียว การวิเคราะห์ การถดถอยเชิงเส้นแบบง่าย",
-        "presubject":[]
+        "presubject":[],
+        "hardRate":"NORMAL"
       },
       {
         "subject":"Fundamentals of Computing",
         "subID":"01418132",
         "credit":4,
         "description":"ทฤษฎีการคานวณเชิงวิยุต ความน่าจะเป็นและสถิติ การทาให้เกิดผลและการประยุกต์ในวิทยาการคอมพิวเตอร์",
-        "presubject":[]
+        "presubject":[],
+        "hardRate":"NORMAL"
       },
       {
         "subject":"Intellectual property for software and digital contents",
         "subID":"01418341",
         "credit":3,
         "description":"จริยธรรมในวิชาชีพ ประเภทของทรัพย์สินทางปัญญา การได้มาซึ่งลิขสิทธิ์ สิทธิของเจ้าของลิขสิทธิ์และผู้สร้างสรรค์ การละเมิดลิขสิทธิ์และข้อยกเว้นการละเมิดลิขสิทธิ์ สิทธิของนักแสดง การเข้าถึงข้อมูลข่าวสารและสิทธิส่วนบุคคล ลิขสิทธิ์ซอฟต์แวร์สาธารณะ ลิขสิทธิ์เอกสารสาธารณะ สัญญาอนุญาตให้ใช้โปรแกรมคอมพิวเตอร์ กฎหมายว่าด้วยธุรกรรมทางอิเล็กทรอนิกส์ ลายมือชื่ออิเล็กทรอนิกส์ อาชญากรรมคอมพิวเตอร์ กรณีศึกษา",
-        "presubject":[]
+        "presubject":[],
+        "hardRate":"HARD"
       },
       {
         "subject": "Fundamentals programming concept",
         "subID": "01418112",
         "credit": 3,
         "description": "การคิดเชิงคำนวณ การให้เหตุผลเชิงตรรกะ การแก้ปัญหา การออกแบบและพัฒนาโปรแกรมขั้นพื้นฐาน เครื่องมือการโปรแกรม เทคนิคการโปรแกรมโครงสร้าง โครงสร้างควบคุม การประมวลผลโปรแกรม การติดตามการทำงานและการตรวจหาข้อบกพร่องของโปรแกรม",
-        "presubject": ["Introduction to computer science"]
+        "presubject": ["Introduction to computer science"],
+        "hardRate":"EASY"
       },
       {
         "subject": "Computer programming",
         "subID": "01418113",
         "credit": 3,
         "description": "การโปรแกรมด้วยภาษาระดับสูง ข้อความสั่งรับเข้า/ส่งออก ตัวแปร ข้อความสั่งเงื่อนไข ฟังก์ชัน การกาหนดสาระสาคัญเชิงกระบวนงาน การทดสอบหน่วยย่อย การโปรแกรมเชิงฟังก์ชัน การปรากฏซ้า ข้อความสั่งวนซ้า โครงสร้างข้อมูลพื้นฐาน การกาหนดสาระสาคัญของข้อมูล การโปรแกรมเชิงวัตถุ คลาส ส่วนต่อประสานและการทาให้เกิดผล การรับทอด ภาวะพหุสัณฐาน การรับทอดแบบพหุคูณ และมิกซ์อิน",
-        "presubject": ["Fundamentals programming concept"]
+        "presubject": ["Fundamentals programming concept"],
+        "hardRate":"EASY"
       },
       {
         "subject": "CalculusII",
         "subID": "01417112",
         "credit": 3,
         "description": "เรขาคณิตสามมิติ อนุพันธ์ย่อย อินทิกรัลหลายชั้น สมการเชิงอนุพันธ์เบื้องต้น",
-        "presubject": ["CalculusI"]
+        "presubject": ["CalculusI"],
+        "hardRate":"HARD"
       },
       {
         "subject": "Software construction",
         "subID": "01418211",
         "credit": 3,
         "description": "การโปรแกรมด้วยภาษาเชิงวัตถุที่มีชนิดแบบคงที่ ชนิด วัตถุ คลาส คลาสย่อย ส่วนต่อประสาน คลาสเชิงนามธรรม สิ่งผิดปกติ อรรถศาสตร์การเรียกเมธอด ลาดับชั้นของชนิด ข้อกาหนดของซอฟต์แวร์ ตัวยืนยงในการแทนค่า การแยกคู่ แผนภาพการขึ้นต่อกันระหว่างโมดูล แผนภาพเชิงพฤติกรรม การรีแฟกเตอร์ แบบรูปการออกแบบ หลักการออกแบบเชิงวัตถุ การโปรแกรมเชิงเหตุการณ์ การโปรแกรมในภาวะพร้อมกัน",
-        "presubject": ["Computer programming"]
+        "presubject": ["Computer programming"],
+        "hardRate":"NORMAL"
       },
       {
         "subject": "Data structures",
         "subID": "01418231",
         "credit": 3,
         "description": "โครงสร้างข้อมูล ขั้นตอนวิธีสาหรับใช้งานรายการ กองซ้อน แถวคอย ต้นไม้และกราฟ โครงสร้างแฟ้ม และการประมวลผลแฟ้ม",
-        "presubject": ["Computer programming"]
+        "presubject": ["Computer programming"],
+        "hardRate":"NORMAL"
       },
       {
         "subject": "Basic linear algebra",
         "subID": "01417322",
         "credit": 3,
         "description": "ปริภูมิเวกเตอร์ การแปลงเชิงเส้นและเมตริกซ์ ระบบของสมการเชิงเส้น ค่าเฉพาะ เวกเตอร์เฉพาะ การทำให้เป็นแนวทแยงมุม การประยุกต์",
-        "presubject": ["CalculusII"]
+        "presubject": ["CalculusII"],
+        "hardRate":"HARD"
       },
       {
         "subject": "Fundamentals of database systems",
         "subID": "01418221",
         "credit": 3,
         "description": "แนวคิดเกี่ยวกับฐานข้อมูลเบื้องต้น เป้าหมายของระบบจัดการฐานข้อมูล ความไม่พึ่งพิงของข้อมูล บูรณภาพและความเชื่อถือได้ การจัดองค์การเชิงตรรกะและเชิงกายภาพ เค้าร่างและเค้าร่างย่อย ตัวแบบข้อมูลเชิงลาดับชั้น เชิงข่ายงาน และเชิงสัมพันธ์ บรรทัดฐานข้อมูล ภาษานิยามข้อมูลพจนานุกรมข้อมูล เครื่องช่วยตอบข้อซักถาม การจัดแฟ้มข้อมูล ความปลอดภัยของแฟ้มข้อมูล",
-        "presubject": ["Computer programming"]
+        "presubject": ["Computer programming"],
+        "hardRate":"HARD"
       },
       {
         "subject": "Assembly language and computer architecture",
         "subID": "01418233",
         "credit": 4,
         "description": "โครงสร้างของภาษาแอสเซมบลี เทคนิคการกาหนดเลขที่อยู่ แฟ้มข้อมูลสาหรับรับเข้าและส่งออก การแบ่งส่วนของโปรแกรมและการเชื่อมโยง การสร้างโปรแกรมภาษาแอสเซมบลี ลักษณะเฉพาะของสถาปัตยกรรมคอมพิวเตอร์ ผลที่มีต่อการออกแบบและสมรรถนะของระบบ ภาวะถ่วงดุลระหว่างราคาต่อสมรรถนะ การออกแบบชุดคาสั่ง ตัวประมวลผลกลาง ระบบรับส่งข้อมูล การทางานแบบสายท่อ เวกเตอร์และสถาปัตยกรรมแบบริกส์ สถาปัตยกรรมแบบขนาน",
-        "presubject": ["Computer programming", "Digital computer logic"]
+        "presubject": ["Computer programming", "Digital computer logic"],
+        "hardRate":"HARD"
       },
       {
         "subject": "Algorithm Design and Analysis",
         "subID": "01418232",
         "credit": 3,
         "description": "แนวคิดพื้นฐานของขั้นตอนวิธี การวิเคราะห์ขั้นตอนวิธีในเชิงคณิตศาสตร์ การวิเคราะห์ขั้นตอนวิธีการเรียงลาดับและการค้นหา เทคนิคเชิงขั้นตอนวิธี วิธีการออกแบบขั้นตอนวิธี",
-        "presubject": ["Fundamentals of Computing", "Data Structures"]
+        "presubject": ["Fundamentals of Computing", "Data Structures"],
+        "hardRate":"HARD"
       },
       {
         "subject": "System analysis and design",
         "subID": "01418321",
         "credit": 3,
         "description": "ขั้นตอนวิเคราะห์เบื้องต้น เครื่องมือในการวิเคราะห์ระบบ ผังระบบงาน ตารางการตัดสินและต้นไม้การตัดสิน การศึกษาความเป็นไปได้ของปัญหา การวิเคราะห์ความคุ้มค่าในการลงทุน นาเข้า ส่งออกและการออกแบบ การออกแบบวิธีการประมวลผลด้วยคอมพิวเตอร์ การทาเอกสาร การนาไปใช้และการประเมินผล การพิสูจน์ การออกแบบ กรณีศึกษา",
-        "presubject": ["Software construction","Fundamentals of database systems"]
+        "presubject": ["Software construction","Fundamentals of database systems"],
+        "hardRate":"HARD"
       },
       {
         "subject": "Operating systems",
         "subID": "01418331",
         "credit": 4,
         "description": "พัฒนาการของสถาปัตยกรรมคอมพิวเตอร์และระบบปฏิบัติการ โครงสร้างระบบปฏิบัติการ กระบวนการและสายโยงใย การจัดกาหนดการ การติดตาย ลาดับขั้นของหน่วยความจา การจัดการหน่วยความจา หน่วยความจาเสมือน การจัดการระบบแฟ้ม การจัดการระบบรับเข้าและส่งออก ความมั่นคง การป้องกัน ระบบปฏิบัติการแบบกระจาย",
-        "presubject": ["Algorithm Design and Analysis"]
+        "presubject": ["Algorithm Design and Analysis"],
+        "hardRate":"HARD"
       },
       {
         "subject": "Seminar",
         "subID": "01418497",
         "credit": 1,
         "description": "การนาเสนอและอภิปรายหัวข้อที่น่าสนใจทางวิทยาการคอมพิวเตอร์ ในระดับปริญญาตรี",
-        "presubject": ["Software construction"]
+        "presubject": ["Software construction"],
+        "hardRate":"NORMAL"
       },
       {
         "subject": "Cooperative education preparation",
         "subID": "01418390",
         "credit": 1,
         "description": "หลักการ แนวคิด และกระบวนการของสหกิจศึกษา ระเบียบข้อบังคับที่เกี่ยวข้อง ความรู้พื้นฐานและเทคนิคในการสมัครงานอาชีพ ความรู้พื้นฐานในการปฏิบัติงาน การสื่อสารและมนุษยสัมพันธ์ การพัฒนาบุคลิกภาพ ระบบการบริหารคุณภาพในสถานประกอบการ เทคนิคการนาเสนอ การเขียนรายงาน",
-        "presubject": ["System analysis and design"]
+        "presubject": ["System analysis and design"],
+        "hardRate":"NORMAL"
       },
       {
         "subject": "Information system security",
         "subID":"01418332",
         "credit":3,
         "description":"แนวคิดของข้อมูลและสารสนเทศ การจัดองค์การบริหาร โครงสร้างระบบสารสนเทศ สารสนเทศตามความต้องการของการจัดการ แนวคิดเกี่ยวกับระบบ วัฏจักรระบบ การพัฒนาระบบสารสนเทศ การใช้งานของระบบสารสนเทศและตัวอย่าง",
-        "presubject":["Operating systems"]
+        "presubject":["Operating systems"],
+        "hardRate":"HARD"
       },
       {
         "subject":"Computer communications and protocols",
         "subID":"01418351",
         "credit":3,
         "description":"แนวคิดของการสื่อสาร องค์ประกอบของการสื่อสารคอมพิวเตอร์และเครือข่าย ชนิดของเครือข่ายคอมพิวเตอร์ มาตรฐานและระดับชั้นโพรโทคอล โพรโทคอลชั้นโปรแกรมประยุกต์ สถาปัตยกรรมและการเขียนโปรแกรมเพื่อประยุกต์บนเครือข่าย โพรโทคอลชั้นทรานสปอร์ต",
-        "presubject":["Fundamentals of Computing"]
+        "presubject":["Fundamentals of Computing"],
+        "hardRate":"HARD"
       },
       {
         "subject":"Formal language and automata theory",
         "subID":"01418333",
         "credit":3,
         "description":"แนวคิดเรื่องภาวะจากัด เครื่องรับรู้ ข้อความปรกติ สมบัติปิด เครื่องจักรชนิดลาดับ และเครื่องสื่อนาภาวะจากัด การหาภาวะต่าสุด ไวยากรณ์ของภาษารูปนัย ภาวะที่เอื้อต่อการคานวณ และเครื่องจักรทัวริง",
-        "presubject":["Fundamentals of Computing"]
+        "presubject":["Fundamentals of Computing"],
+        "hardRate":"HARD"
       },
       {
         "subject":"Compiler techniques",
         "subID":"01418334",
         "credit":3,
         "description":"ตัวแปลโปรแกรมและโปรแกรมแปลภาษา เฟสของตัวแปลโปรแกรม สัญกรณ์และแนวคิดของภาษาและไวยากรณ์ การวิเคราะห์ศัพท์ ต้นไม้แจงส่วนและการแปลง ความกากวม เทคนิคการแจงส่วน ตารางสัญลักษณ์ การแทนระหว่างกลาง การวิเคราะห์ความหมายและการก่อกาเนิดรหัส",
-        "presubject":["Formal language and automata theory"]
+        "presubject":["Formal language and automata theory"],
+        "hardRate":"HARD"
       },
       {
         "subject":"Cooperative education",
         "subID":"01418490",
         "credit":6,
         "description":"การปฏิบัติงานในลักษณะพนักงานชั่วคราว ตามโครงงานที่ได้รับมอบหมายตลอดจนการจัดทำรายงานและการนำเสนอ",
-        "presubject":["Cooperative education preparation"]
+        "presubject":["Cooperative education preparation"],
+        "hardRate":"NORMAL"
       },
       {
         "subject":"Computer science project",
         "subID":"01418499",
         "credit":3,
         "description":"โครงงานที่น่าสนใจในแขนงต่างๆ ของวิทยาการคอมพิวเตอร์",
-        "presubject":["System analysis and design"]
+        "presubject":["System analysis and design"],
+        "hardRate":"HARD"
       }
     ]
   }

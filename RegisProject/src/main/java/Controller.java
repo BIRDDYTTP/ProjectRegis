@@ -36,7 +36,7 @@ public class Controller implements Initializable {
     @FXML ListView<Subject> subject;
     @FXML Label selectingSubject;
     @FXML TextArea subjectDetail;
-
+    @FXML Label hardRate;
     public Controller(){
         subjects = FileJsonReader.getInstance().readJsonToSubject("subject.json");
         subjectsObservableList = FXCollections.observableArrayList();
@@ -177,6 +177,16 @@ public class Controller implements Initializable {
     @FXML public void handleOnClickListview(MouseEvent event){
         Subject s = subject.getSelectionModel().getSelectedItem();
         String presub = "";
+        hardRate.setText(s.getHardRate());
+        if (s.getHardRate().equals("HARD")){
+            hardRate.setStyle("-fx-background-color: #FF0000");
+        }
+        if (s.getHardRate().equals("NORMAL")){
+            hardRate.setStyle("-fx-background-color: #0000FF");
+        }
+        if (s.getHardRate().equals("EASY")){
+            hardRate.setStyle("-fx-background-color: #00FF00");
+        }
         for (String s1 : s.getPresubject()) {
             presub+=s1+"\n";
         }
