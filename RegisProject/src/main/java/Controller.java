@@ -195,7 +195,7 @@ public class Controller implements Initializable {
             presub = "ไม่มีวิชาที่ต้องผ่านก่อนลงทะเบียน";
         }
         selectingSubject.setText(s.getSubject());
-        subjectDetail.setText("รหัสวิชา : " + s.getSubID() + "\nหน่วยกิต : " + s.getCredit() +
+        subjectDetail.setText("รหัสวิชา : " + s.getSubID() + "\nหน่วยกิต : " + s.getCredit() + "\nเทอมที่สามารถลงได้ : "+ s.getSemester() +
                 "\nรายละเอียดวิชา : " + s.getDescription() + "\nวิชาที่ต้องผ่านก่อน : " +presub);
 
 
@@ -222,7 +222,7 @@ public class Controller implements Initializable {
                 s.setPassing(true);
             }
             else{
-                Alert alert = new Alert(Alert.AlertType.INFORMATION);
+                Alert alert = new Alert(Alert.AlertType.ERROR);
                 alert.setTitle("Error");
                 alert.setHeaderText("You can't register this subject");
                 alert.showAndWait();
@@ -247,6 +247,11 @@ public class Controller implements Initializable {
     @FXML public void handleClickOnResultBtn(ActionEvent event){
         pdfCreator = new PDFCreator();
         pdfCreator.createPDF(subjects);
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle("Success");
+        alert.setHeaderText("Create PDF file");
+        alert.showAndWait();
+
     }
 
     public ListView<Subject> getSubject() {

@@ -8,7 +8,8 @@ public class Subject {
     private ArrayList<String> presubject;
     private boolean passing;
     private String hardRate;
-    public Subject(String subject, String subID, int credit, String description, ArrayList<String> presubject, String hardRate) {
+    private int semester;
+    public Subject(String subject, String subID, int credit, String description, ArrayList<String> presubject, String hardRate, int semester) {
         this.subject = subject;
         this.subID = subID;
         this.credit = credit;
@@ -16,10 +17,15 @@ public class Subject {
         this.presubject = presubject;
         this.passing = false;
         this.hardRate = hardRate;
+        this.semester = semester;
     }
 
     public String getHardRate() {
         return hardRate;
+    }
+
+    public int getSemester() {
+        return semester;
     }
 
     public ArrayList<String> getPresubject() {
